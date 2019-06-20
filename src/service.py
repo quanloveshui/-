@@ -54,7 +54,7 @@ def register():
     if ret:
         print('已经存在')
     else:
-        obj_o=user.add(username=name, passwd=passwd, user_type_id=typeid)
+        obj_user.add(username=name, passwd=passwd, user_type_id=typeid)
         print('{:>8}成功创建用户'.format(''))
     # 将数据插入到userinfo表
 
